@@ -5,12 +5,30 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 Mar 2024 01:31:42 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>my life in russia</title>
+      <link>https://example.com/post/git/</link>
+      <pubDate>Sat, 16 Mar 2024 01:31:42 +0300</pubDate>
+      <guid>https://example.com/post/git/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;My life in Russia&lt;/strong&gt;
+actually i live livin in russia. but sometimes i miss my hometown and my family. sometimes i get trouble with my study in here. im bad at math and informatics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Life in Russia</title>
+      <link>https://example.com/post/my-life-in-russia/</link>
+      <pubDate>Sat, 16 Mar 2024 01:30:23 +0300</pubDate>
+      <guid>https://example.com/post/my-life-in-russia/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blog with Jupyter Notebooks!</title>
@@ -243,7 +261,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-258496713&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-154392867&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -253,7 +271,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-258496713&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-154392867&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
